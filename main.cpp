@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <stdlib.h>
-#include <Windows.h> //in linux use <unistd.h> instead of <Windows.h>
+#include <Windows.h> //for linux use <unistd.h> instead of <Windows.h>
 using std::cout, std::setfill, std::setw;
 
 int hrs = 0;
@@ -47,10 +47,6 @@ void timer() {
             secs = 0;
         }
     };
-}
-
-void welcomePage() {
-
 }
 
 int main(int argc, char** argv) {
