@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <stdlib.h>
 #include <Windows.h> //in linux use <unistd.h> instead of <Windows.h>
-using namespace std;
+using std::cout, std::setfill, std::setw;
 
 int hrs = 0;
 int mins = 0;
